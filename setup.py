@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="isHex",
-    version="0.0.1",
+    version="0.0.2",
     description="Simple Python package to check if string is valid hexadecimal.",
     py_modules=["isHex"],
     package_dir={'': 'src'},
