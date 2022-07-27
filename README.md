@@ -4,11 +4,23 @@ Simple Python package to check if string is valid hexadecimal.
 
 ## 🚀 Usage
 
-_Coming soon!_  
+```python
+from isHex import isHex
+
+# Check invalid hexadecimal
+isHex('abcg7') # Returns False
+
+#Check valid hexadecimal
+isHex('aBcDeF1234567890') # Returns True
+```
 
 ## 📦 Installation
 
-_Coming soon!_  
+Run the following to install:  
+
+```bash
+$ pip install isHex
+```
 
 ## 👨‍💻 Developing isHex
 
