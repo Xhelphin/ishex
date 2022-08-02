@@ -10,7 +10,7 @@ from isHex import isHex
 # Check invalid hexadecimal
 isHex('abcg7') # Returns False
 
-#Check valid hexadecimal
+# Check valid hexadecimal
 isHex('aBcDeF1234567890') # Returns True
 ```
 
