@@ -40,4 +40,4 @@ $ pip install -e .[dev]
 
 ## 🚦 Development Progress
 
-Unstable Development
+Stable Development
