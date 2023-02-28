@@ -9,11 +9,14 @@ def isHex(string):
     """
     Returns True if string is valid hexidecimal with any character case, else returns False.
     """
-    validCharacters = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f']
-    string = string.lower()
     for character in string:
-        if character not in validCharacters:
-            return False
+        if '0' <= character <= '9':
+            continue
+        if 'a' <= character <= 'f':
+            continue
+        if 'A' <= character <= 'F':
+            continue
+        return False
     return True
 
 def isHexLower(string):
