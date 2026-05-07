@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project has been archived and is no longer maintained.
+
 # ✅ isHex
 
 Simple Python package to check if string is valid hexadecimal.  
@@ -40,4 +43,4 @@ $ pip install -e .[dev]
 
 ## 🚦 Development Progress
 
-Stable Development
+No longer developed
